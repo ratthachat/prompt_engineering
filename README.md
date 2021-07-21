@@ -5,13 +5,13 @@ Prompt engineering  new possibility of coding inspired by GPT-3.
 
 ## Conceptual Ideas
 
-* [How many data points is a prompt worth? - April 2021](https://huggingface.co/blog/how_many_data_points/)
-* [Calibrate Before Use: Improving Few-Shot Performance of Language Models - June 2021](https://arxiv.org/pdf/2102.09690.pdf)
-* [Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm - Feb 2021](https://arxiv.org/pdf/2102.07350.pdf)
-* [Surface Form Competition: Why the Highest Probability Answer Isn’t Always Right - April 2021](https://peterwestuw.github.io/surface-form-competition-project/surface_form_competition.pdf)
-* [The Power of Scale for Parameter-Efficient Prompt Tuning - April 2021](https://arxiv.org/pdf/2104.08691.pdf)
-* [Prefix-Tuning: Optimizing Continuous Prompts for Generation - Jan 2021](https://arxiv.org/pdf/2101.00190.pdf)
-* [Making Pre-trained Language Models Better Few-shot Learners - June 2021](https://huggingface.co/blog/how_many_data_points/)
-* [Building AGI Using Language Models - April 2021](https://huggingface.co/blog/how_many_data_points/)
-* [Methods of prompt programming - Jan 2021](https://generative.ink/posts/methods-of-prompt-programming/)
-* [Rationale for a Large Text Compression Benchmark - July 2009](http://mattmahoney.net/dc/rationale.html)
+* [How many data points is a prompt worth?](https://huggingface.co/blog/how_many_data_points/) - April 2021
+* [Calibrate Before Use: Improving Few-Shot Performance of Language Models](https://arxiv.org/pdf/2102.09690.pdf) - June 2021
+* [Surface Form Competition: Why the Highest Probability Answer Isn’t Always Right](https://peterwestuw.github.io/surface-form-competition-project/surface_form_competition.pdf) - April 2021
+* [The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/pdf/2104.08691.pdf) - April 2021
+* [Prefix-Tuning: Optimizing Continuous Prompts for Generation](https://arxiv.org/pdf/2101.00190.pdf) - Jan 2021
+* [Making Pre-trained Language Models Better Few-shot Learners](https://huggingface.co/blog/how_many_data_points/) - June 2021
+* [Building AGI Using Language Models](https://huggingface.co/blog/how_many_data_points/) - April 2021
+* [Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm](https://arxiv.org/pdf/2102.07350.pdf) - Feb 2021
+* [Methods of prompt programming](https://generative.ink/posts/methods-of-prompt-programming/) - Jan 2021
+* [Rationale for a Large Text Compression Benchmark](http://mattmahoney.net/dc/rationale.html) - July 2009
