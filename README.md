@@ -11,7 +11,7 @@ Prompt engineering  new possibility of coding inspired by GPT-3.
 * [The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/pdf/2104.08691.pdf) - April 2021
 * [Prefix-Tuning: Optimizing Continuous Prompts for Generation](https://arxiv.org/pdf/2101.00190.pdf) - Jan 2021
 * [Making Pre-trained Language Models Better Few-shot Learners](https://huggingface.co/blog/how_many_data_points/) - June 2021
-* [Building AGI Using Language Models](https://huggingface.co/blog/how_many_data_points/) - April 2021
-* [Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm](https://arxiv.org/pdf/2102.07350.pdf) - Feb 2021
-* [Methods of prompt programming](https://generative.ink/posts/methods-of-prompt-programming/) - Jan 2021
-* [Rationale for a Large Text Compression Benchmark](http://mattmahoney.net/dc/rationale.html) - July 2009
+* [AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts](https://aclanthology.org/2020.emnlp-main.346/) - November 2020
+* [Building AGI Using Language Models](https://huggingface.co/blog/how_many_data_points/) - April 2021 (Blog)
+* [Methods of prompt programming](https://generative.ink/posts/methods-of-prompt-programming/) - Jan 2021 (Blog)
+* [Rationale for a Large Text Compression Benchmark](http://mattmahoney.net/dc/rationale.html) - July 2009 (Blog)
