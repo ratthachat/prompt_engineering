@@ -1,7 +1,8 @@
 # On Prompt Engineering
 Prompt engineering  new possibility of coding inspired by GPT-3.
 
-## Practical Prompts
+## Practical Ready-to-Use Prompts
+* [GPT3 and Commonsense Reasoning Prompt](https://github.com/ratthachat/prompt_engineering/blob/main/gpt3_commonsense_prompt.ipynb) - A prompt to systematically test GPT-3 commonsense ability in 8 reasoning dimensions on stories with various genres. The main article of this prompt is [here](https://agi.miraheze.org/wiki/GPT3_and_Commonsense_Reasoning).
 
 ## Conceptual Ideas
 
