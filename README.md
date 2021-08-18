@@ -1,7 +1,68 @@
-# On Prompt Engineering
-Prompt engineering  new possibility of coding inspired by GPT-3.
+# Prompt Engineering
 
-## Practical Ready-to-Use Prompts
+In this repository:
+* What is prompting? Prompting in a new kind of programming
+* My own collection of **ready-to-use prompts** - many of these prompt programming are almost-not-impossible in conventional programming paradigm
+* Related literatures on prompt engineering
+
+## Prompting in a new kind of programming. 
+
+To understand the potential of prompting as a new way of programming or coding, let us consider the example of classifying whether someone tweeter's sentiment is positive or negative (ie. Sentiment analysis):
+
+```
+Tweet: "This new music video blew my mind" 
+Sentiment: Positive
+
+Tweet: "I hate it when my phone battery dies." 
+Sentiment: Negative
+```
+
+In conventional programming such as Python, one of the easiest way to achieve this classifier would to use the following Huggingface code:
+```python
+>>> from transformers import pipeline
+>>> classifier = pipeline('sentiment-analysis')
+
+>>> results = classifier(["This new music video blew my mind",
+...            "I hate it when my phone battery dies."])
+>>> for result in results:
+...     print(f"label: {result['label']}, with score: {round(result['score'], 4)}")
+```
+Then, we will get the following results:
+```python
+label: POSITIVE, with score: 0.996
+label: NEGATIVE, with score: 0.999
+```
+
+The code is indeed very simple for an experienced programmer, but wouldn't it be better if we can just use our **everyday-language** as programming like this:
+
+```
+>>> Tweet: "I loved the new Batman movie!"
+>>> Sentiment: Positive
+
+>>> Tweet: "I am not sure I want this phone. It's too big." 
+>>> Sentiment: Negative
+
+>>> Tweet: "This new music video blew my mind" 
+```
+and get the expected result:
+```
+Sentiment: Positive
+```
+
+In other words, in **prompting**, coding is done by simply giving few **everyday-language** examples.
+
+### True advantage of prompting
+
+The difference between conventional coding and prompting become very elucid when you need a machine to produce human-level outputs like "Blog Writing", "Economic Analysis" and "Chat Bot" where prompting are still relatively easy but conventional programming are extremely difficult (if not impossible).
+
+## How exactly can we use prompting as a new programming ?
+At the moment (August, 2021), there are 3 venues for us to access large-language models 
+
+* **OpenAI's GPT-3**:  We need to submit [this form](https://share.hsforms.com/1Lfc7WtPLRk2ppXhPjcYY-A4sk30) to join the waitlist.
+* **AI21's Jurassic**: Everybody can use [Jurassic model](https://studio.ai21.com/) without waiting in the waitlist. Nevertheless, the free version has a limited quota per day.
+* **EleutherAI's GPT-J-6B**: An [interactive web demo](https://6b.eleuther.ai/) that does not have a daily limit. *However, GPT-J-6B is the smallest model among the three and its capability on long-text writing could not be compared with the others two.*
+
+# Practical Ready-to-Use Prompts
 * [GPT3 and Commonsense Reasoning Prompt](https://github.com/ratthachat/prompt_engineering/blob/main/gpt3_commonsense_prompt.ipynb) - A prompt to systematically test GPT-3 commonsense ability in 8 reasoning dimensions on stories with various genres. The main article of this prompt is [here](https://agi.miraheze.org/wiki/GPT3_and_Commonsense_Reasoning).
 
 ## Conceptual Ideas
