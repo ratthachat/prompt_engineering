@@ -49,11 +49,35 @@ and get the expected result:
 Sentiment: Positive
 ```
 
-In other words, in **prompting**, coding is done by simply giving few **everyday-language** examples.
+Note that what we did in this example was just giving two examples in natural language, instead of writing a Python code. The given two-examples text is called as a **prompt**.  In short, with **prompting**, coding is done by simply giving few **everyday-language** examples.
 
 ### True advantage of prompting
 
 The difference between conventional coding and prompting become very elucid when you need a machine to produce human-level outputs like "Blog Writing", "Economic Analysis" and "Chat Bot" where prompting are still relatively easy but conventional programming are extremely difficult (if not impossible).
+
+See my ready-to-use prompt below for this kind of human-level outputs programming.
+
+### Downside of prompting
+
+Prompting also have some downsides. 
+
+First, the prompt has to be carefully designed. Output quality is usually varied due to the quality of the given prompt. In particular, poor-quality prompt would produce a poor-quality output.
+
+The main issue with prompting is we do have many choices of a prompt text. For examples, in the sentiment analysis example above, we provided two examples (a Batman movie and a big phone), but we could have provided 3-4 examples instead of 2. Also, why don't we provided just 1 example?
+
+In general, _more_ and _diverse_ prompted text usually results in better output than _less_ and _similar_ examples. Therefore, all-else equal, 8-examples prompt is usually better tnan 1 or 2-example prompt.
+
+We also need examples to be diverse. For instance, the following 2-examples which are _not_ well-diversed similar may not be better than a single-example prompt.
+
+```
+>>> Tweet: "I loved the new Batman movie!"
+>>> Sentiment: Positive
+
+>>> Tweet: "I hated the new Batman movie!"
+>>> Sentiment: Negative
+
+>>> Tweet: [User input]
+```
 
 ## How exactly can we use prompting as a new programming ?
 At the moment (August, 2021), there are 3 venues for us to access large-language models 
