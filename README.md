@@ -93,9 +93,14 @@ We also need examples to be diverse. For instance, the following 2-examples whic
 Another important downside of prompting as a new programming as of now is about its cost. Currently, both GPT-3 and Jurassic give only a few amount of free usage. GPT-3 highest-quality, _Davinci_, model charges $0.06 / 1,000 tokens.
 
 # Prompt Engineering
-As explained above, since output quality highly depends on quality of a given prompt. _Prompt engineering_ (or _prompt designing_) becomes very essential to the success of prompting.
+As explained above, since output quality highly depends on quality of a given prompt. _**Prompt engineering**_ (or _prompt designing_) becomes very essential to the success of prompting.
 
-There are many articles illustrating how we can use LLMs like GPT-3 or Jurassic to do general tasks like chatbot, text summarization, copywriting, text classification or writing songs.
+There are many articles illustrating how we can use LLMs like GPT-3 or Jurassic to do general tasks like 
+* chatbot
+* text summarization
+* story writing
+* text classification, or 
+* song writing
 
 Readers may see [this article](https://towardsdatascience.com/20-creative-things-to-try-out-with-gpt-3-2aacee3e2abf) and [this site](https://prompts.ai/) as well as [Jurassic own blog](https://www.ai21.com/blog/ai21-studio-use-cases) for this kind of popular tasks.
 
