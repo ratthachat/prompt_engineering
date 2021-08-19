@@ -1,11 +1,9 @@
-# Prompt Engineering
-
 In this repository:
 * What is prompting? Prompting in a new kind of programming
 * My own collection of **ready-to-use prompts** - many of these prompt programming are almost-not-impossible in conventional programming paradigm
 * Related literatures on prompt engineering
 
-## Prompting in a new kind of programming. 
+# Prompting is a new kind of programming
 
 To understand the potential of prompting as a new way of programming or coding, let us consider the example of classifying whether someone tweeter's sentiment is positive or negative (ie. Sentiment analysis):
 
@@ -62,13 +60,13 @@ At the moment (August, 2021), there are 3 venues for us to access LLMs
 * **EleutherAI's GPT-J-6B**: An [interactive web demo](https://6b.eleuther.ai/) that does not have a daily limit. *However, GPT-J-6B is the smallest model among the three and its capability on long-text writing could not be compared with the others two.*
 
 
-### Why prompting ?
+## Why prompting ?
 
 The difference between conventional coding and prompting become very elucid when you need a machine to produce human-level outputs like "Blog Writing", "Economic Analysis" and "Chat Bot" where prompting are still relatively easy but conventional programming are extremely difficult (if not impossible).
 
 See my ready-to-use prompt below for this kind of human-level outputs programming.
 
-### Downside of prompting
+## Downside of prompting
 
 Prompting also have some downsides. 
 * Unstable outputs due to different choices of prompting
@@ -94,7 +92,16 @@ We also need examples to be diverse. For instance, the following 2-examples whic
 
 Another important downside of prompting as a new programming as of now is about its cost. Currently, both GPT-3 and Jurassic give only a few amount of free usage. GPT-3 highest-quality, _Davinci_, model charges $0.06 / 1,000 tokens.
 
-# Practical Ready-to-Use Prompts
+# Prompt Engineering
+As explained above, since output quality highly depends on quality of a given prompt. _Prompt engineering_ (or _prompt designing_) becomes very essential to the success of prompting.
+
+There are many articles illustrating how we can use LLMs like GPT-3 or Jurassic to do general tasks like chatbot, text summarization, copywriting, text classification or writing songs.
+
+Readers may see [this article](https://towardsdatascience.com/20-creative-things-to-try-out-with-gpt-3-2aacee3e2abf) and [this site](https://prompts.ai/) as well as [Jurassic own blog](https://www.ai21.com/blog/ai21-studio-use-cases) for this kind of popular tasks.
+
+## Practical Ready-to-Use Prompts
+In addition to a general task mentioned above, this repository gives examples of a more specific and rarely mentioned task as followed:
+
 * [GPT3 and Commonsense Reasoning Prompt](https://github.com/ratthachat/prompt_engineering/blob/main/gpt3_commonsense_prompt.ipynb) - A prompt to systematically test GPT-3 commonsense ability in 8 reasoning dimensions on stories with various genres. The main article of this prompt is [here](https://agi.miraheze.org/wiki/GPT3_and_Commonsense_Reasoning).
 
 ## Conceptual Ideas
