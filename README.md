@@ -105,11 +105,12 @@ There are many articles illustrating how we can use LLMs like GPT-3 or Jurassic 
 Readers may see [this article](https://towardsdatascience.com/20-creative-things-to-try-out-with-gpt-3-2aacee3e2abf) and [this site](https://prompts.ai/) as well as [Jurassic own blog](https://www.ai21.com/blog/ai21-studio-use-cases) for this kind of popular tasks.
 
 ## Practical Ready-to-Use Prompts
-In addition to a general task mentioned above, this repository gives examples of a more specific and rarely mentioned task as followed:
+In addition to a general task mentioned above, this repository gives examples of a more specific task as followed:
 
-* [GPT3 and Commonsense Reasoning Prompt](https://github.com/ratthachat/prompt_engineering/blob/main/gpt3_commonsense_prompt.ipynb) - A prompt to systematically test GPT-3 commonsense ability in 8 reasoning dimensions on stories with various genres. The main article of this prompt is [here](https://agi.miraheze.org/wiki/GPT3_and_Commonsense_Reasoning).
+* [Commonsense Reasoning in Story Comprehension](https://github.com/ratthachat/prompt_engineering/tree/main/common_sense)  
+* Scientific Explanation of the Correct Answer on Grade-Level Multiple Choices Exam
 
-## Conceptual Ideas
+## Related Literatures Regarding Automatic Prompt Generation
 
 * [How many data points is a prompt worth?](https://huggingface.co/blog/how_many_data_points/) - April 2021
 * [Calibrate Before Use: Improving Few-Shot Performance of Language Models](https://arxiv.org/pdf/2102.09690.pdf) - June 2021
