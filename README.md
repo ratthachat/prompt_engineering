@@ -31,7 +31,7 @@ label: POSITIVE, with score: 0.996
 label: NEGATIVE, with score: 0.999
 ```
 
-The code is indeed very simple for an experienced programmer, but wouldn't it be better if we can just use our **everyday-language** as programming like this:
+The code is indeed very simple for an experienced programmer. For comparison, see an example of _not_ using Huggingface [here](https://keras.io/examples/nlp/text_classification_with_transformer/). But wouldn't it be better if we can just use our **everyday-language** as programming like this:
 
 ```
 >>> Tweet: "I loved the new Batman movie!"
