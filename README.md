@@ -107,7 +107,7 @@ Readers may see [this article](https://towardsdatascience.com/20-creative-things
 The existing prompts are usually able to generate texts in a general aspect. However, in many specific areas where human experts or professionals are needed to write texts e.g. detailed analysis of science, business, economics or politics, the prompts in existing literatures are usually not enough since the existing prompts usually lack of high-quality few examples on each expert task.
 
 ## High-Quality Prompts for Expert Systems
-In artificial intelligence, an expert system is a computer system emulating the decision-making ability of a human expert. Traditionally, expert systems are designed to solve complex problems by reasoning through bodies of knowledge like if-then rules. These if-then rules have been failed to produce a desirable expert system
+In artificial intelligence, an expert system is a computer system emulating the decision-making ability of a human expert. In the early era of artificial intelligence (1970s-1980s), expert systems are designed to solve complex problems by reasoning through bodies of knowledge like if-then rules. However, these if-then rules have been _failed_ to produce a desirable expert system, ended the hype of AI at that time and cause the so-called [AI Winter](https://en.wikipedia.org/wiki/AI_winter).
 
 With the emergence of LLMs and carefully engineered prompts, we now have the new possibility of expert systems. This repository contains a prompt collection of an expert-system task as followed:
 
