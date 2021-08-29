@@ -104,7 +104,7 @@ There are many existing articles illustrating how we can do a simple prompt engi
 
 Readers may see [this article](https://towardsdatascience.com/20-creative-things-to-try-out-with-gpt-3-2aacee3e2abf) and [this site](https://prompts.ai/) as well as [Jurassic own blog](https://www.ai21.com/blog/ai21-studio-use-cases) for this kind of popular tasks.
 
-The existing prompts are usually able to generate texts in a general aspect. However, in many areas where texts are needed human experts or professionals to write e.g. detailed analysis of science, business, economics or politics, the prompts in existing literatures are usually not enough since the existing prompts usually lack of high-quality few examples on each expert task.
+The existing prompts are usually able to generate texts in a general aspect. However, in many specific areas where human experts or professionals are needed to write texts e.g. detailed analysis of science, business, economics or politics, the prompts in existing literatures are usually not enough since the existing prompts usually lack of high-quality few examples on each expert task.
 
 ## High-Quality Prompts for Expert Systems
 In artificial intelligence, an expert system is a computer system emulating the decision-making ability of a human expert. Traditionally, expert systems are designed to solve complex problems by reasoning through bodies of knowledge like if-then rules. These if-then rules have been failed to produce a desirable expert system
