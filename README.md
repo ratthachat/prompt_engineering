@@ -1,6 +1,6 @@
 In this repository:
 * What is prompting? Prompting in a new kind of programming
-* My own collection of **ready-to-use prompts** - many of these prompt programming are almost-not-impossible in conventional programming paradigm
+* My own collection of **expert-system prompts** - a prompt designed to make a thinking process like a human expert
 * Related literatures on prompt engineering
 
 # Prompting is a new kind of programming
@@ -78,7 +78,7 @@ The main issue with prompting is: we have too many choices of selecting a prompt
 
 In general, _more_ and _diverse_ prompted text usually results in better output than _less_ and _similar_ examples. Therefore, all-else equal, 8-examples prompt is usually better tnan 1- or 2-examples prompt.
 
-We also need examples to be diverse. For instance, the following 2-examples which are _not_ well-diversed may not be better than a single-example prompt.
+We also need examples to be diverse. For instance, the following 2-examples which are _not_ well-diversed would not be better than a single-example prompt.
 
 ```
 >>> Tweet: "I loved the new Batman movie!"
@@ -93,9 +93,9 @@ We also need examples to be diverse. For instance, the following 2-examples whic
 Another important downside of prompting as a new programming as of now is about its cost. Currently, both GPT-3 and Jurassic give only a few amount of free usage. GPT-3 highest-quality, _Davinci_, model charges $0.06 / 1,000 tokens.
 
 # Prompt Engineering
-As explained above, since output quality highly depends on quality of a given prompt. _**Prompt engineering**_ (or _prompt designing_) becomes very essential to the success of prompting.
+As explained above, since output quality highly depends on quality of a given prompt. _**Prompt engineering**_ is a new field of designing a high quality prompt to best suit the task we want to solve. Hence, prompt engineering becomes very essential to the success of prompting as programming.
 
-There are many articles illustrating how we can use LLMs like GPT-3 or Jurassic to do general tasks like 
+There are many existing articles illustrating how we can do a simple prompt engineering for LLMs like GPT-3 or Jurassic on popular tasks like 
 * chatbot
 * text summarization
 * story writing
@@ -104,10 +104,15 @@ There are many articles illustrating how we can use LLMs like GPT-3 or Jurassic 
 
 Readers may see [this article](https://towardsdatascience.com/20-creative-things-to-try-out-with-gpt-3-2aacee3e2abf) and [this site](https://prompts.ai/) as well as [Jurassic own blog](https://www.ai21.com/blog/ai21-studio-use-cases) for this kind of popular tasks.
 
-## Practical Ready-to-Use Prompts
-In addition to a general task mentioned above, this repository gives examples of a more specific task as followed:
+The existing prompts are usually able to generate texts in a general aspect. However, in many areas where texts are needed human experts or professionals to write e.g. detailed analysis of science, business, economics or politics, the prompts in existing literatures are usually not enough since the existing prompts usually lack of high-quality few examples on each expert task.
 
-* [Commonsense Reasoning in Story Comprehension](https://github.com/ratthachat/prompt_engineering/tree/main/common_sense)  
+## High-Quality Prompts for Expert Systems
+In artificial intelligence, an expert system is a computer system emulating the decision-making ability of a human expert. Traditionally, expert systems are designed to solve complex problems by reasoning through bodies of knowledge like if-then rules. These if-then rules have been failed to produce a desirable expert system
+
+With the emergence of LLMs and carefully engineered prompts, we now have the new possibility of expert systems. This repository contains a prompt collection of an expert-system task as followed:
+
+* [Commonsense Reasoning in Story Comprehension](https://github.com/ratthachat/prompt_engineering/tree/main/common_sense)
+* Business Analysis using Porter's 5-forces Model
 * Scientific Explanation of the Correct Answer on Grade-Level Multiple Choices Exam
 
 ## Related Literatures Regarding Automatic Prompt Generation
