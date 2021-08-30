@@ -119,6 +119,9 @@ With the emergence of LLMs and carefully engineered prompts, we now have the new
 * Scientific Explanation of Grade-Level Multiple Choices Examinations
 
 ## Prompts for Commonsense Analysis
+Commonsense is a hidden reasoning process which human use to make a reliable decision and action making. A lack of commonsense reasoning is one of the fundamental reason why LLMs still cannot generate a consistent and highly reasonable texts like human, especially in a long text writing (e.g. a whole book writing).
+
+This prompt is designed to test a commonsense reasoning of each LLM model on a given story context.
 
 * [Commonsense Reasoning in Story Comprehension](https://github.com/ratthachat/prompt_engineering/tree/main/common_sense)
 
