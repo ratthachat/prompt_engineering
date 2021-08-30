@@ -1,7 +1,11 @@
-In this repository:
-* What is prompting? Prompting in a new kind of programming
-* My own collection of **expert-system prompts** - a prompt designed to make a thinking process like a human expert
-* Related literatures on prompt engineering
+This repository is a personal collection of everything related to prompting which can be thought of as **a new kind of programming.**
+
+**Contents**
+* What is prompting and how can we use it?
+* My own prompt collection 
+    - **expert system prompts:** a step-toward human expert on making thinking and decision-making process in a complex task
+    - **commonsense analysis prompts:** extraction of human commonsense, i.e. hidden thinking process, when human makes a reasoning on a given context
+* Related literatures on prompt engineering and auto-prompt generation
 
 # Prompting is a new kind of programming
 
@@ -92,7 +96,7 @@ We also need examples to be diverse. For instance, the following 2-examples whic
 
 Another important downside of prompting as a new programming as of now is about its cost. Currently, both GPT-3 and Jurassic give only a few amount of free usage. GPT-3 highest-quality, _Davinci_, model charges $0.06 / 1,000 tokens.
 
-# Prompt Engineering
+# Prompt Collections
 As explained above, since output quality highly depends on quality of a given prompt. _**Prompt engineering**_ is a new field of designing a high quality prompt to best suit the task we want to solve. Hence, prompt engineering becomes very essential to the success of prompting as programming.
 
 There are many existing articles illustrating how we can do a simple prompt engineering for LLMs like GPT-3 or Jurassic on popular tasks like 
@@ -109,13 +113,16 @@ The existing prompts are usually able to generate texts in a general aspect. How
 ## High-Quality Prompts for Expert Systems
 In artificial intelligence, an expert system is a computer system emulating the decision-making ability of a human expert. In the early era of artificial intelligence (1970s-1980s), expert systems are designed to solve complex problems by reasoning through bodies of knowledge like if-then rules. However, these if-then rules have been _failed_ to produce a desirable expert system, ended the hype of AI at that time and cause the so-called [AI Winter](https://en.wikipedia.org/wiki/AI_winter).
 
-With the emergence of LLMs and carefully engineered prompts, we now have the new possibility of expert systems. This repository contains a prompt collection of an expert-system task as followed:
+With the emergence of LLMs and carefully engineered prompts, we now have the new possibility of expert systems. This following is a prompt collection which can be a step-toward an expert-system as followed:
+
+* Business Analysis using Porter's 5-forces Model
+* Scientific Explanation of Grade-Level Multiple Choices Examinations
+
+## Prompts for Commonsense Analysis
 
 * [Commonsense Reasoning in Story Comprehension](https://github.com/ratthachat/prompt_engineering/tree/main/common_sense)
-* Business Analysis using Porter's 5-forces Model
-* Scientific Explanation of the Correct Answer on Grade-Level Multiple Choices Exam
 
-## Related Literatures Regarding Automatic Prompt Generation
+# Related Literatures Regarding Automatic Prompt Generation
 
 * [How many data points is a prompt worth?](https://huggingface.co/blog/how_many_data_points/) - April 2021
 * [Calibrate Before Use: Improving Few-Shot Performance of Language Models](https://arxiv.org/pdf/2102.09690.pdf) - June 2021
