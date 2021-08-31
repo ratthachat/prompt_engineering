@@ -32,6 +32,7 @@ Given a story context, it will generate texts which are its reasoning on 8 princ
 
 With the output texts where a model tries to infer on a story, we could see whether a model really understand hidden commonsense information or not. If not, in which reasoning dimensions are the weakness of the current model.
 
+# Example
 **Input Example (after prompt) - a Story Context**
 ```
 Alien race seeking refuge landed on earth on a small island in the south pacific. 
@@ -44,7 +45,7 @@ But now they've exhausted the resources.
 
 The full prompt to generate this kind of commonsense analysis can be found [here](https://github.com/ratthachat/prompt_engineering/blob/main/common_sense/gpt3_commonsense_prompt.ipynb). As explained in the blog, we illustrate 10 story contexts on various story genres where each story has to be tested one by one. 
 
-**Suggested Parameters:** 
+## Suggested Parameters
 
 * GPT-3 Davinci, Temperature 0.3, Top-p 0.99.
 Top-p is suggested to be 0.99 so that we eliminate the long-tail outlier which mostly goes out of context
