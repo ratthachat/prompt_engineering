@@ -115,7 +115,7 @@ In artificial intelligence, an expert system is a computer system emulating the 
 
 With the emergence of LLMs and carefully engineered prompts, we now have the new possibility of expert systems. This following is a prompt collection which can be a step-toward an expert-system as followed:
 
-* Business Analysis using Porter's 5-forces Model
+* [Business Analysis using Porter's 5-forces Model](https://github.com/ratthachat/prompt_engineering/tree/main/five_forces)
 * Scientific Explanation of Grade-Level Multiple Choices Examinations
 
 ## Prompts for Commonsense Analysis
