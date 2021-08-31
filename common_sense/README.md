@@ -44,3 +44,9 @@ But now they've exhausted the resources.
 
 The full prompt to generate this kind of commonsense analysis can be found [here](https://github.com/ratthachat/prompt_engineering/blob/main/common_sense/gpt3_commonsense_prompt.ipynb). As explained in the blog, we illustrate 10 story contexts on various story genres where each story has to be tested one by one. 
 
+**Suggested Parameters:** 
+
+* GPT-3 Davinci, Temperature 0.3, Top-p 0.99.
+Top-p is suggested to be 0.99 so that we eliminate the long-tail outlier which mostly goes out of context
+
+* Jurassic Jumbo , Temperature 0.7, Top-p 0.99. Here the good temperature is 0.7 since Jurassic has 250k candidate tokens (5x of GPT-3). When sampling, we can see that top-10 tokens are very similar and will lead to the same sentence. Therefore, we have to increase optimal temperature a bit more than GPT-3 so that alternative tokens will got a chance.
