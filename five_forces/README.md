@@ -39,14 +39,13 @@ Coursera
 **Output Example from GPT-3 (Texts are cut, bolded and underlined for readability)**
 ![image](https://github.com/ratthachat/prompt_engineering/blob/main/five_forces/coursera_five_forces_snippet.jpg)
 
-Note that GPT-3 already has information about the Coursera company from pretraining phase and we haven't include any information beside the prompt which is not related to Coursera. The full prompt to generate this kind of five forces analysis can be found [here]()
+Note that GPT-3 already has information about the Coursera company from pretraining phase and we haven't include any information beside the prompt which is not related to Coursera. The full prompt to generate this kind of five forces analysis can be found [here](https://github.com/ratthachat/prompt_engineering/blob/main/five_forces/five_forces_prompt.txt)
 
 ## Suggested Parameters
 
-* GPT-3 Davinci, Temperature 0.3, Top-p 0.99.
+* GPT-3 Davinci, Temperature 0.3-0.7, Top-p 0.99.
 Top-p is suggested to be 0.99 so that we eliminate the long-tail outlier which mostly goes out of context
 
 * Jurassic Jumbo , Temperature 0.8, Top-p 0.99. Here the good temperature is 0.8 since Jurassic has 250k candidate tokens (5x of GPT-3). When sampling, we can see that top-10 tokens are very similar and will lead to the same sentence. Therefore, we have to increase optimal temperature a bit more than GPT-3 so that alternative tokens will got a chance.
 
 From few experiments, we observe that the output of GPT-3 is a little more of higher quality than Jurassic Jumbo.
-
